@@ -1,3 +1,6 @@
+# Getting Started in the Engineering Park
+Revision 2
+
 ## Introduction
 Welcome to the Engineering Park. We are so glad to have you participating in our
 community. This guide describes how to get up and running.
@@ -30,11 +33,7 @@ later.
 If you are going to deploy to your land by yourself then you need an Ethereum
 wallet to which the land update rights can be allocated. This is the wallet
 which will be used to sign the update transaction and therefore it must be
-accesible to the person who will execute the deployment. You also need to have
-enough ETH to cover the gas fees for the allocation and future removal of land
-update rights (although this does not necessarily need to be in the same wallet
-and could even be puchased using Fiat and sent directly to the district's land
-management wallet).
+accesible to the person who will execute the deployment.
 
 If you are going to rely on the leadership team to deploy to your land then
 please arrange this with them before proceeding. You will also need a source
@@ -59,7 +58,6 @@ that lest you create scenes by writing code.
 - Deploy scenes yourself or have it done for you?
 - If self deploying:
   - Ethereum wallet available?
-  - ETH for gas fees available?
 - If leadership team deploying:
   - Source code repository available?
   - Capability to grant repository read access to leadership team?
@@ -93,12 +91,8 @@ leadership team who is assigned to execute the deployment.
 
 If you are executing the initial deployment yourself then the workflow looks
 approximately like this:
-1. (you) Have Ethereum wallet and ETH (or means of buying ETH) for gas fees ready
+1. (you) Have Ethereum wallet ready
 1. (leader) Prepare the transaction to allocate land update rights
-1. (leader) Calculate the required gas fees (3x the gas fees for the allocation
-  transaction)
-1. (you) Transfer the required gas fees to the district's land management wallet
-1. (both) Wait until the gas fees arrives...
 1. (leader) Execute the allocation transaction
 1. (both) Wait until the transaction is succesful...
 1. (you) Double check the scene configuration - especially the land coordinates
@@ -128,3 +122,7 @@ rights only need to be granted once.
 
 The metaverse is your oyster. Build, create, collaborate, grow. Ask for help or
 help others. We can't wait to see what you will do.
+
+## Change Log
+Revision 2 on 22 March 2022:
+- Removed instructions related to the payment of gas fees using Ethereum. This payment will now be made via a contribution to the [Engineering Park Collective](https://opencollective.com/engineeringpark).
